@@ -87,7 +87,7 @@ python -m solver --sample network_input.json
 - **Founder & Lead Developer:** [Akash Tanna (@akashtanna)](https://github.com/akashtanna)
 - 💬 **WhatsApp Direct:** [+91 9016048986](https://wa.me/919016048986?text=Hi%20Akash%2C%20I%20am%20interested%20in%20Powered%20By%20Akash%20(PBA)%20Engineering%20Packages)
 - ✉️ **Email Inquiry:** [Poweredbyakash@gmail.com](mailto:Poweredbyakash@gmail.com)
-- 📍 **Headquarters:** Surat, Gujarat, India
+- 📍 **Location:** Gujarat, India
 
 <br>
 
