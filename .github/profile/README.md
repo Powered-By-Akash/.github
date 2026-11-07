@@ -29,7 +29,7 @@ Our repositories distribute verified algorithms designed to eliminate manual spr
 ```
 Powered By Akash (PBA)
  ├── 💧 UDN Suite                  -> Water Distribution Modeling & Simulation Platform
- ├── 📐 Design & Drafting Tools    -> Structural Solvers & AutoCAD Python/LISP Automation
+ ├── 📐 Design & Drafting Tools    -> Structural Solvers & AutoCAD Python Automation
  ├── 💻 Digital Products           -> Custom Web Apps, Excel Engines & Presentation Decks
  └── 📦 Development Resources      -> Open-Source Engineering Packages & Developer Toolkits
 ```
@@ -40,15 +40,11 @@ Powered By Akash (PBA)
 
 Explore and clone our open computational libraries, drafting utilities, and calculation modules:
 
-| Package / Repository | Category | Core Functionality | Stack |
-| :--- | :--- | :--- | :--- |
-| **[PBA-GUI](https://github.com/Powered-By-Akash/PBA-GUI)** | 🖥️ GUI Framework | Python Tkinter GUI Framework & Visual Component Library for PBA desktop applications & consoles. | `Python` `Tkinter` |
-| **[pba-hydraulics-core](https://github.com/Powered-By-Akash/pba-hydraulics-core)** | 💧 Hydraulics | Hardy Cross loop balancing & Hazen-Williams distribution network solver. | `Python` `Math` |
-| **[autocad-lisp-utility-pack](https://github.com/Powered-By-Akash/autocad-lisp-utility-pack)** | 📐 CAD Tools | Automated drawing generation, coordinate exports, elevation markers, and text batching. | `AutoLISP` `CAD` |
-| **[pba-structural-is456](https://github.com/Powered-By-Akash/pba-structural-is456)** | 🏗️ Structural | Indian Standard IS 456:2000 compliant RCC beam, column, and footing design solver. | `Python` `IS456` |
-| **[automated-rebar-bbs](https://github.com/Powered-By-Akash/automated-rebar-bbs)** | 📊 Excel / VBA | Instant Bar Bending Schedule (BBS) generator from member dimensions & schedules. | `Excel` `VBA` `Python` |
-| **[survey-csv-importer](https://github.com/Powered-By-Akash/survey-csv-importer)** | 🗺️ Geotech | Auto-import Total Station & Topo survey CSV coordinates directly into AutoCAD blocks. | `AutoCAD` `LISP` `CSV` |
-| **[stormwater-culvert-sizer](https://github.com/Powered-By-Akash/stormwater-culvert-sizer)** | 🌧️ Drainage | Rational method runoff calculation & pipe culvert sizing engine with IDF curves. | `Python` `Hydrology` |
+| Package / Repository | Category | Core Functionality | Stack | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **[PBA-GUI](https://github.com/Powered-By-Akash/PBA-GUI)** | 🖥️ GUI Framework | Python Tkinter GUI Framework & Visual Component Library for PBA desktop applications & consoles. | `Python` `Tkinter` | `Released` |
+
+*(Packages are registered here one by one as they are published to GitHub)*
 
 ---
 
@@ -59,7 +55,7 @@ Explore and clone our open computational libraries, drafting utilities, and calc
 | Domain | Technologies |
 | :--- | :--- |
 | **Core Solvers** | `Python 3.10+` `NumPy` `SciPy` `SymPy` `Mathematical Modeling` |
-| **CAD Automation** | `AutoCAD COM API` `AutoLISP` `pyautocad` `win32com` `DXF / DWG` |
+| **CAD Automation** | `AutoCAD COM API` `Python COM` `pyautocad` `win32com` `DXF / DWG` |
 | **Web & Interfaces** | `HTML5` `CSS3 (Obsidian Dark & Clean Light)` `Modern Vanilla JS` |
 | **Spreadsheets** | `Microsoft Excel (XLSX / XLSM)` `VBA Automation` `CSV Data Pipelines` |
 
@@ -72,14 +68,15 @@ Explore and clone our open computational libraries, drafting utilities, and calc
 You can clone and run any PBA computational package locally:
 
 ```bash
-# Clone a PBA package from the organization
-git clone https://github.com/Powered-By-Akash/pba-hydraulics-core.git
+# Install the official PBA-GUI visual component framework
+pip install git+https://github.com/Powered-By-Akash/PBA-GUI.git
 
-# Navigate into the project
-cd pba-hydraulics-core
+# Clone and test the interactive component showcase
+git clone https://github.com/Powered-By-Akash/PBA-GUI.git
+cd PBA-GUI
+python examples/demo.py
 
-# Run test network derivation
-python -m solver --sample network_input.json
+
 ```
 
 ---
